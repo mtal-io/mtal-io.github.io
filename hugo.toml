@@ -1,4 +1,4 @@
-baseURL = 'https://mtal.io.github.io/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'MTAL'
 

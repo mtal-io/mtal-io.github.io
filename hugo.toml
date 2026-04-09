@@ -12,10 +12,10 @@ paginate = 5
   description = 'AI-powered mineral discovery and blockchain-funded mining projects'
 
 # ── Primary navigation ────────────────────────────────────
-[[menu.main]]
-  name       = "Token Economics"
-  url        = "/#governance"
-  weight     = 1
+#[[menu.main]]
+#  name       = "Token Economics"
+#  url        = "/#governance"
+#  weight     = 1
 
 [[menu.main]]
   name       = "Explore Platform"
@@ -23,7 +23,7 @@ paginate = 5
   weight     = 2
 
 [[menu.main]]
-  name       = "Current Projects"
+  name       = "Projects"
   url        = "/#projects"
   weight     = 3
 

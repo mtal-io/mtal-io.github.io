@@ -78,7 +78,7 @@
     <p class="hero__sub reveal reveal--delay-2">{{ .subtitle }}</p>
     <div class="hero__ctas reveal reveal--delay-3">
       <a href="{{ .cta_primary.url }}" class="btn btn--primary">{{ .cta_primary.label }}</a>
-      <a href="{{ .cta_secondary.url }}" class="btn btn--ghost">{{ .cta_secondary.label }}</a>
+      <!-- <a href="{{ .cta_secondary.url }}" class="btn btn--ghost">{{ .cta_secondary.label }}</a> -->
     </div>
     {{ end }}
     <div class="hero__coords reveal reveal--delay-4" aria-hidden="true">
@@ -286,7 +286,7 @@
 
 <!-- ════════════════════════════════ PROJECTS ════════════════════════════════ -->
 {{ with .Params.projects }}
-<section class="sponsor" id="sponsor">
+<section class="sponsor" id="projects">
   <div class="section-inner">
     <div class="section-label reveal">{{ .label }}</div>
     <h2 class="section-headline reveal">{{ .headline | safeHTML }}</h2>
@@ -294,6 +294,7 @@
     <div class="projects-grid">
       {{ range $i, $proj := .items }}
       <article class="project-card reveal{{ if gt $i 0 }} reveal--delay-{{ $i }}{{ end }}">
+        <div class="coming-soon-overlay"><span class="coming-soon-overlay__label">Coming Soon</span></div>
         <div class="project-card__header">
           <span class="project-tag">{{ $proj.tag }}</span>
           <span class="project-status status--{{ $proj.status }}">{{ $proj.status_label }}</span>
@@ -348,7 +349,7 @@
     <p class="cta-band__sub">{{ .body }}</p>
     <div class="cta-band__actions">
       <a href="{{ .cta_primary.url }}" class="btn btn--primary btn--lg">{{ .cta_primary.label }}</a>
-      <a href="{{ .cta_secondary.url }}" class="btn btn--ghost btn--lg">{{ .cta_secondary.label }}</a>
+      <!-- <a href="{{ .cta_secondary.url }}" class="btn btn--ghost btn--lg">{{ .cta_secondary.label }}</a> -->
     </div>
   </div>
 </section>

@@ -9,15 +9,15 @@ hero:
   cta_primary:
     label: "Explore Platform"
     url: "/explore-platform/"
-  cta_secondary:
-    label: "Read Whitepaper →"
-    url: "#governance"
+  #cta_secondary:
+  #  label: "Read Whitepaper →"
+  #  url: "#governance"
 
 stats:
-  - count: 2400
+  - count: 100
     suffix: "+"
     label: "Mining Projects Analysed"
-  - count: 47
+  - count: 32
     suffix: "%"
     label: "Average Resource Yield Improvement"
   - count: 128
@@ -106,20 +106,20 @@ projects:
   headline: "Active Projects<br/><em>Open for Investment</em>"
   intro: "Browse current tokenised mining projects. Each is validated by MTAL's AI and geology team before listing."
   items:
-    - tag: "Copper"
-      status: "active"
+    - tag: "Heavy Minerals"
+      status: "prospecting"
       status_label: "● Live"
-      title: "Atacama Copper Ridge"
-      location: "Chile — Antofagasta Region"
+      title: "High Rutile Mining"
+      location: "West Africa"
       resource: "4.2Mt Cu"
       raise: "$28M"
       funded: 74
       cta: "View Project →"
-    - tag: "Gold"
+    - tag: "lithium"
       status: "active"
       status_label: "● Live"
-      title: "Pilbara Deep Gold"
-      location: "Australia — Western Australia"
+      title: "Lithium Exploration"
+      location: "West Africa"
       resource: "1.8Moz Au"
       raise: "$42M"
       funded: 51

@@ -43,26 +43,26 @@ paginate = 5
   url        = "/about/"
   weight     = 1
 
-[[menu.actions]]
-  identifier = "blogs"
-  name       = "Blogs"
-  url        = "/blog/"
-  weight     = 2
+# [[menu.actions]]
+#   identifier = "blogs"
+#   name       = "Blogs"
+#   url        = "/blog/"
+#   weight     = 2
 
-[[menu.actions]]
-  parent     = "blogs"
-  name       = "Project Lithio Launch"
-  url        = "/blog/project-lithio-launch"
-  weight     = 1
+# [[menu.actions]]
+#   parent     = "blogs"
+#   name       = "Project Lithio Launch"
+#   url        = "/blog/project-lithio-launch"
+#   weight     = 1
 
-[[menu.actions]]
-  parent     = "blogs"
-  name       = "News from the field"
-  url        = "/blog/news-from-the-field"
-  weight     = 2
+# [[menu.actions]]
+#   parent     = "blogs"
+#   name       = "News from the field"
+#   url        = "/blog/news-from-the-field"
+#   weight     = 2
 
-[[menu.actions]]
-  parent     = "blogs"
-  name       = "Mining in Africa"
-  url        = "/blog/mining-in-africa"
-  weight     = 3
+# [[menu.actions]]
+#   parent     = "blogs"
+#   name       = "Mining in Africa"
+#   url        = "/blog/mining-in-africa"
+#   weight     = 3

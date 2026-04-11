@@ -1035,8 +1035,36 @@ html[data-theme="option1"] .theme-toggle__label--2 { color: var(--cream-muted); 
   background: var(--surface-1);
   padding: 2.2rem;
   transition: background 0.3s;
+  position: relative;
+  overflow: hidden;
 }
 .project-card:hover { background: var(--surface-2); }
+
+/* ── Coming Soon overlay ── */
+.coming-soon-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(7, 10, 30, 0.72);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(3px);
+  z-index: 10;
+  border: 1px solid rgba(245, 166, 35, 0.18);
+}
+.coming-soon-overlay__label {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--green-neon);
+  padding: 0.55rem 1.2rem;
+  border: 1px solid rgba(245, 166, 35, 0.45);
+  border-radius: 2px;
+  background: rgba(245, 166, 35, 0.06);
+}
 
 .project-card__header {
   display: flex;
@@ -1536,4 +1564,10 @@ body::before {
 
 .dropdown:focus-within .dropdown-content {
   display: block;
+}
+
+input.email {
+    height: 48px;
+    padding: 20px;
+    margin-right: 2em;
 }
